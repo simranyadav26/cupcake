@@ -1,0 +1,29 @@
+.social-icons{
+    margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ 
+ .fab{
+     margin: 30px;
+     font-size: large;
+     transform: scale(2);
+ }
+ .fab:hover{
+     color: #c77d70;
+     transform: scale(2.5);
+     cursor: pointer;
+ }
+ 
+ .fas{
+     margin: 30px;
+     font-size: large;
+     transform: scale(2);
+ }
+ .fas:hover{
+     color: #c77d70;
+     transform: scale(2.5);
+     cursor: pointer;
+ }

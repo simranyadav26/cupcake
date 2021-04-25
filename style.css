@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('css/bootstrap-grid.css');
+@import url('css/reset.css');
+@import url('css/spacing.css');
+@import url('css/color-palette.css');
+@import url('css/typography.css');
+@import url('css/links.css');
+@import url('css/button.css');
+@import url('css/image.css');
+@import url('css/main-content.css');
+@import url('css/sidebar.css');
+@import url('css/footer.css');
+@import url('css/navigation.css');
+@import url('css/social.css');
+/* @import url('css/wireframe-style.css'); */
+
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
+}
+#head,#navigation,#main-content,#footer{
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+#head{
+    animation-delay: 0.1s;
+}
+#navigation{
+    animation-delay: 0.8s;
+}
+#main-content{
+    animation-delay: 0.8s;
+}
+#footer{
+    animation-delay: 1s;
+}
